@@ -36,7 +36,7 @@ public class q_760_FindAnagramMappings {
 	}
 
 	public static int[] anagramMappings2(int[] A, int[] B) {
-		HashMap<Integer, Integer> map = new HashMap<>();
+		HashMap<Integer, Integer> map = new HashMap();
 		int len = A.length;
 		int[] P = new int[len];
 		for (int i = 0; i < len; i++) {
